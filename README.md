@@ -1,2 +1,2 @@
-# addblocker-wordpress-chrome
-Small Ad Blocker Script + bypass Blocker of Ad Blocker Wordpress
+# About
+Basic Ad Blocker chrome extension Script + bypass Blocker of Ad Blocker Wordpress
