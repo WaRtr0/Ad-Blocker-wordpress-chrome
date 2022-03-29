@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Bloq++",
+    "version": "0.0.1",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "description": "Small Ad Blocker Script + bypass Blocker of Ad Blocker Wordpress",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["app.js"],
+            "all_frames":true
+        }
+    ],
+    "background": {
+        "scripts": ["back.js"]
+    }
+    
+}
+
+

@@ -1,0 +1,31 @@
+const defaultFilters = [
+  '*://partner.googleadservices.com/*',
+  '*://creative.ak.fbcdn.net/*',
+  '*://*.adbrite.com/*',
+  '*://*.exponential.com/*',
+  '*://*.quantserve.com/*',
+  '*://*.scorecardresearch.com/*',
+  '*://*.zedo.com/*',
+  '*://*/helper.ts*',
+  '*://d3tozt7si7bmf7.cloudfront.net/*',
+  '*://dismantlepenantiterrorist.com/*',
+  '*://premiumvertising.com/*',
+  '*://*.premiumvertising.com/*',
+  '*://static.arc.io/*',
+  '*://tumulmarten.com/*',
+  '*://tumultmarten.com/*',
+  '*://*.chatango.com/*',
+  '*://salutationcheerlessdemote.com/*',
+  '*://addresseepaper.com/*',
+  '*://*.sentry-cdn.com/*',
+  '*://*.arc.io/*',
+  '*://*.cloudimagesb.com/*',
+  '*://chrome.google.com/*',
+  '*://arc.io/*',
+];
+
+chrome.webRequest.onBeforeRequest.addListener(
+  (details) => ({ cancel: true }),
+  { urls: defaultFilters },
+  ['blocking'],
+);
