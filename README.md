@@ -2,7 +2,7 @@
 
 Basic Ad Blocker chrome extension Script + bypass Blocker of Ad Blocker Wordpress
 
-#Installation
+# Installation
 
 Download Zip [here](https://github.com/WaRtrO89/Ad-Blocker-wordpress-chrome/archive/refs/heads/main.zip)
 
