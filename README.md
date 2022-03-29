@@ -8,7 +8,7 @@ Download Zip [here](https://github.com/WaRtrO89/Ad-Blocker-wordpress-chrome/arch
 
 Extract to a location on your hard drive
 
-Go to google chrome [Settings > Extensions](chrome://version)
+Go to google chrome [Settings](chrome://version) > Extensions
 
 1. Enable developer mode
 2. Click on "Load unpacked" and choose the "Ad-Blocker-wordpress-chrome-main" folder where you extracted the previous zip.
